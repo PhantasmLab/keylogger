@@ -2,6 +2,10 @@
 keylogger with two ways to save the data from locally or using telegram bot
 
 
+Convert PY to EXE : https://www.youtube.com/watch?v=lOIJIk_maO4
+Python 3 Programming Tutorial - cx freeze python to exe: https://www.youtube.com/watch?v=GSoOwSqTSrs&t=648s
+
+
 # Screenshots
 
 
