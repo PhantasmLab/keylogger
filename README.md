@@ -15,6 +15,7 @@ Python 3 Programming Tutorial - cx freeze python to exe: https://www.youtube.com
 
 Creditos:
 
-__criador__ = 'Cyrax'
-__Colaborador__ = 'bitzer0'
+__criador__ : Cyrax
+
+__Colaborador__ : bitzer0
 
